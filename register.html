@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Demo Register</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="offset4 span4" style="text-align:center">
+          <form class="form-horizontal">
+            <fieldset class="register-form">
+              <h2 class="muted">Register <small>for an Openlabs Account</small></h2><br>
+              <div class="control-group">
+                <label class="control-label" for="Name">Name <span>*</span>:</label>
+                <div class="controls">
+                  <div class="input-prepend">
+                    <span class="add-on"><i class="icon-user"></i></span>
+                    <input class="input-flexible" type="text" id="" name="name" placeholder="john doe ">
+                  </div>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="email">Email <span>*</span>:</label>
+                <div class="controls">
+                  <div class="input-prepend">
+                    <span class="add-on"><i class="icon-envelope"></i></span>
+                    <input class="input-flexible" type="text" id="" name="email" placeholder="john.doe@email.com ">
+                  </div>
+                </div>
+              </div>
+              <div class="control-group ">
+                <label class="control-label" for="password">New Password <span>*</span>:</label>
+                <div class="controls">
+                  <div class="input-prepend">
+                    <span class="add-on"><i class="icon-key"></i></span>  
+                    <input class=" required" id="password" name="password" type="password" value="">   
+                  </div>    
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="confirm">Confirm Password <span>*</span>:</label>
+                <div class="controls">
+                  <div class="input-prepend">
+                    <span class="add-on"><i class="icon-key"></i></span>
+                    <input class=" required" id="password" name="Confirm" type="password" value="">
+                  </div>    
+                </div>
+              </div>
+              <div align="center">
+                <script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LddPdcSAAAAAG3wwOGvMoAyp5wIJBrlVyDaPdEu"></script>
+              </div>
+              <br>
+              <div class="clearfix">
+                <a class="btn btn-register" value="" type="submit"><i class="icon-ok"></i> Register Now</a>
+                <a href="#" class="btn btn-facebook "><i class="icon icon-facebook"></i><strong> Facebook</strong></a>
+                <a href="#" class="btn btn-linkedin "><i class="icon icon-linkedin"></i> <strong>LinkedIn</strong></a><br><br>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

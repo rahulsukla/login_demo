@@ -1,0 +1,96 @@
+body {
+	padding-top: 60px;
+    padding-bottom: 40px;
+    background-position: initial initial; 
+    background-repeat: repeat repeat;
+}
+
+.login-form, .register-form {
+padding: 15px 35px 25px 35px;
+margin: 60px 0 60px 0px;
+background-color: #fff;
+border: 1px solid #e5e5e5;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+-ms-border-radius: 2px;
+-o-border-radius: 2px;
+border-radius: 2px;
+box-shadow: 0px 0px 7px #bbbbbb;
+margin: 0 auto;
+}
+
+.btn-facebook, .btn-facebook:hover, .btn-facebook:active{
+        background: #4863ae;
+        color: #fff;
+        text-shadow: none;
+        margin: 5px 5px;
+}
+.btn-linkedin,.btn-linkedin:hover, .btn-linkedin:active{
+    background:#0083a8;
+    color: #fff;
+    text-shadow:none;
+}
+.btn-login,.btn-login:hover,.btn-login:active{
+    text-shadow:none;
+    background: #A34E4E;
+    color: #fff;
+}
+.btn-register, .btn-register:hover, .btn-register:active{
+    text-shadow:none;
+    background: #A34E4E;
+    color: #fff;
+}
+.btn-facebook,.btn-linkedin, .btn-login, .btn-register{
+    -moz-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
+    -webkit-box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
+    box-shadow: inset 0 0.08em 0 rgba(255,255,255,0.4), inset 0 0 0.1em rgba(255,255,255,0.9);
+    cursor: pointer;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    white-space: nowrap;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    position: relative;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em;
+    background-image: -moz-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: -ms-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), color-stop(49%, rgba(255,255,255,.05)), color-stop(51%, rgba(0,0,0,.05)), to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    background-image: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.05) 49%, rgba(0,0,0,.05) 51%, rgba(0,0,0,.1));
+    border: 1px solid #777;
+    border-color: rgba(0,0,0,0.2);
+    border-bottom-color: #333;
+    border-bottom-color: rgba(0,0,0,0.4);
+}
+.btn-facebook:hover ,.btn-linkedin:hover, .btn-login:hover, .btn-register:hover{
+        background-image: -moz-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+        background-image: -ms-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+        background-image: -o-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.15)), color-stop(49%, rgba(255,255,255,.15)), color-stop(51%, rgba(0,0,0,.1)), to(rgba(0,0,0,.15)));
+        background-image: -webkit-linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+        background-image: linear-gradient(rgba(255,255,255,.15) 49%, rgba(0,0,0,.1) 51%, rgba(0,0,0,.15));
+}
+.btn-facebook:active,.btn-linkedin:active, .btn-login:active, .btn-register:active{
+    background-image: -moz-linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
+    background-image: -ms-linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.1)), color-stop(30%, rgba(255,255,255,0)), color-stop(50%, transparent), to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
+    background-image: linear-gradient(bottom, rgba(255,255,255,.1), rgba(255,255,255,0) 30%, transparent 50%, rgba(0,0,0,.1));
+}
+.btn-facebook > i, .btn-linkedin > i, .btn-login > i, .btn-register > i {
+border-right: 0.1em solid rgba(0,0,0,0.1);
+float: left;
+text-align: center;
+margin:5px 5px 5px -10px;
+padding: 0 5px;
+text-decoration: none;
+text-transform: none;
+-moz-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
+-webkit-box-shadow: 0.075em 0 0 rgba(255,255,255,0.25);
+box-shadow: 0.1em 0 0 rgba(255,255,255,0.25);
+-moz-font-smoothing: antialiased;
+}
